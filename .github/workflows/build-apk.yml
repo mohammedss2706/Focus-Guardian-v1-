@@ -32,7 +32,7 @@ jobs:
 
       - name: Extract project ZIP
         run: |
-          unzip -o FocusGuardian-SamsungJ6-APK-Workflow.zip -d extracted
+          unzip -o FocusGuardian-SamsungJ6-APK-Workflow-FIXED.zip -d extracted
           cd extracted/FocusGuardian
           gradle --no-daemon assembleDebug
 
